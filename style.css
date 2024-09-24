@@ -1,0 +1,38 @@
+.main-pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.container1{
+    flex: 1;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 315px;
+
+    }
+    .header{
+        height: 110px;
+        border: 1px solid white;
+    }
+    .co1{
+        height: 70px;
+        border: 1px solid white;
+    }
+    body{
+        background-color: black;
+    }
+    span{
+        color: yellow;
+        font-weight: 800;
+    }
+    h2{
+        color: yellow;
+    }
+    @media(max-width:1024px){
+        .main-pricing{
+            flex-direction: column;
+        }
+    }
